@@ -15,7 +15,3 @@ Bir oyun yazmak istiyorsunuz. Bu yazılım için backend kodlarını C# ile geli
 3.Sisteme yeni kampanya girişi, kampanyanın silinmesi ve güncellenmesi imkanlarını simule ediniz.
 
 4.Satışlarda kampanya entegrasyonunu simule ediniz.
-
-# N - Katmanlı Mimari
-
-Her katmanda; soyut classları tutuğum bir Abstract klasörü ve somut classları tuttuğum Concrete klasörü bulunmaktadır. Araştırmalarımdan yola çıkarak bu katmanlarımın her birini class library ile oluşturdum ve DataAccess katmanımı Entities katmanı ile, Business katmanımı DataAccess katmanı ile, UI Katmanımı Business katmanı ile ilişkilendirdim. Bunları niye yaptığım aşağıda daha ayrıntılı bir şekilde anlatmaya çalıştım.
